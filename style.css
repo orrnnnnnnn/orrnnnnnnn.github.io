@@ -10,8 +10,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #FFB6C1;
-    font-family: "Segoe Script";
+    background: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .gif {
@@ -21,8 +21,8 @@ body {
 
 h2 {
     text-align: center;
-    font-size: 1.2em;
-    color: #D2B48C;
+    font-size: 1.5em;
+    color: #e94d58;
     margin: 15px 0;
 }
 .btn-group {
@@ -36,23 +36,21 @@ button {
     position: absolute;
     width: 150px;
     height: inherit;
-    color: #FFE4E1;
-    font-size: 1.0em;
+    color: white;
+    font-size: 1.2em;
     border-radius: 30px;
     outline: none;
     cursor: pointer;
     box-shadow: 0 2px 4px gray;
-    border: 2px solid #FFB6C1;
-    font-size: 1.0em;
-    font-family: "Segoe Script";
-
+    border: 2px solid #e94d58;
+    font-size: 1.2em;
 }
 button:nth-child(1) {
     margin-left: -200px;
-    background: #D2B48C;
+    background: #e94d58;
 }
 button:nth-child(2) {
     margin-right: -200px;
-    background: #FFE4E1;
-    color: #FFB6C1;
+    background: white;
+    color: #e94d58;
 }
