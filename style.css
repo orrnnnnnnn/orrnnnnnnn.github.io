@@ -65,6 +65,6 @@ button:nth-child(1) {
 
 button:nth-child(2) {
     margin-right: -200px;
-    background: #FFB6C1;
-    color: white;
+    background: white;
+    color: #FFB6C1;
 }
