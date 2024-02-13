@@ -53,7 +53,6 @@ button {
 button:nth-child(1) {
     margin-right: -200px;
     background: #FFB6C1;
-    color: white;
 }
 
 button:nth-child(2) {
