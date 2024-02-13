@@ -9,7 +9,7 @@ yesBtn.addEventListener("click", () => {
   gif.src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2s1OTc3eGcyeXZsanB3cGFlbGZuMnFmbWdocDRpcnhkOGRkbXV1cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xWTNfEu9uAXBnFQIa5/giphy.gif";
 });
 
-noBtn.addEventListener("click", () => {
+noBtn.addEventListener("mouseover", () => {
   question.innerHTML = "Are you sure?";
   gif.src = "https://media.giphy.com/media/huPOZgjL4SWzLkJwH2/giphy.gif";
   
