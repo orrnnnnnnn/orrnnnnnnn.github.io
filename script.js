@@ -5,13 +5,20 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Thank you >____<";
-  gif.src =
-    "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjR5dGc3b29yNndvc3JwbHR0ZGY1czdrZ3I0bWhzeHVmd3JsZTJ4eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d3mnEmgej63Z4RIQ/giphy.gif";
-});
-
-noBtn.addEventListener("click", () => {
-  question.innerHTML = "Are you sure?";
+  question.innerHTML = "YES!! Thank you ^ ^";
   gif.src =
     "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
+});
+
+noBtn.addEventListener("mouseover", () => {
+  question.innerHTML = "Are you sure?";
+  const noBtnRect = noBtn.getBoundingClientRect();
+  const maxX = window.innerWidth - noBtnRect.width;
+  const maxY = window.innerHeight - noBtnRect.height;
+
+  const randomX = Math.floor(Math.random() * maxX);
+  const randomY = Math.floor(Math.random() * maxY);
+
+  noBtn.style.left = randomX + "px";
+  noBtn.style.top = randomY + "px";
 });
