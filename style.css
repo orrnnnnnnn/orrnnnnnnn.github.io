@@ -58,12 +58,13 @@ button {
 }
 
 button:nth-child(1) {
-    margin-left: -200px;
+    margin-right: -200px;
     background: #FFB6C1;
+    color: #FFF0F5;
 }
 
 button:nth-child(2) {
     margin-right: -200px;
-    background: #FFF0F5;
-    color: #FFB6C1;
+    background: #FFB6C1;
+    color: #FFF0F5;
 }
