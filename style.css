@@ -60,11 +60,11 @@ button {
 button:nth-child(1) {
     margin-right: -200px;
     background: #FFB6C1;
-    color: #FFF0F5;
+    color: white;
 }
 
 button:nth-child(2) {
     margin-right: -200px;
     background: #FFB6C1;
-    color: #FFF0F5;
+    color: white;
 }
