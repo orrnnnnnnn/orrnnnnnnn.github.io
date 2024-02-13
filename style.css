@@ -21,11 +21,19 @@ body {
 }
 
 h2 {
+    text-align: left;
+    font-size: 1.5em;
+    color: #FFB6C1;
+    margin: 15px 0;
+}
+
+h2 {
     text-align: center;
     font-size: 1.5em;
     color: #FFB6C1;
     margin: 15px 0;
 }
+
 .btn-group {
     width: 100%;
     height: 50px;
