@@ -5,11 +5,11 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "YES!! Thank you";
+  question.innerHTML = "YES!! Thank you <3";
   gif.src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2s1OTc3eGcyeXZsanB3cGFlbGZuMnFmbWdocDRpcnhkOGRkbXV1cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xWTNfEu9uAXBnFQIa5/giphy.gif";
 });
 
-noBtn.addEventListener("mouseover", () => {
+noBtn.addEventListener("click", () => {
   question.innerHTML = "Are you sure?";
   gif.src = "https://media.giphy.com/media/huPOZgjL4SWzLkJwH2/giphy.gif";
   
