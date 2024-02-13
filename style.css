@@ -41,6 +41,7 @@ h2 {
     justify-content: center;
     margin-top: 50px;
 }
+
 button {
     position: absolute;
     width: 150px;
@@ -53,11 +54,14 @@ button {
     box-shadow: 0 2px 4px gray;
     border: 2px solid #FFB6C1;
     font-size: 1.2em;
+    font-family: "Segoe Script";
 }
+
 button:nth-child(1) {
     margin-left: -200px;
     background: #FFB6C1;
 }
+
 button:nth-child(2) {
     margin-right: -200px;
     background: #FFF0F5;
